@@ -1,0 +1,13 @@
+.griglia {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.cella.croce {
+    background-image: url(./RES/croce.jpg);
+}
+
+.cella.pallino {
+    background-image: url(./RES/pallino.jpg);
+}
